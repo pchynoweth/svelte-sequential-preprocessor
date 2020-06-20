@@ -33,7 +33,7 @@ export default {
   ...,
   plugins: [
     svelte({
-      preprocess: assetsPreprocessor([ seqPreprocessor(), image() ])
+      preprocess: autoPreprocess([ seqPreprocessor(), image() ])
     })
   ]
 }
