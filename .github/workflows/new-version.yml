@@ -1,8 +1,8 @@
 name: new-version
 on:
   push:
-    branches-ignore:
-      - '**'
+    branches:
+      - master
     paths:
       - 'package.json'
 jobs:
