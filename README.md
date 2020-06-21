@@ -33,7 +33,7 @@ export default {
   ...,
   plugins: [
     svelte({
-      preprocess: autoPreprocess([ seqPreprocessor(), image() ])
+      preprocess: seqPreprocessor([ autoPreprocess(), image() ])
     })
   ]
 }
@@ -69,7 +69,7 @@ import seqPreprocessor from 'svelte-sequential-preprocessor';
 import autoPreprocess from 'svelte-preprocess'
 import image from 'svelte-image'
 
-const preprocess = assetsPreprocessor([ autoPreprocess(), image() ]);
+const preprocess = seqPreprocessor([ autoPreprocess(), image() ]);
 
 export default {
   client: {
