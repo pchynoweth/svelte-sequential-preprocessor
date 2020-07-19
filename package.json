@@ -1,6 +1,6 @@
 {
   "name": "svelte-sequential-preprocessor",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Sequential preprocessor for Svelte JS.",
   "main": "build/src/main.js",
   "types": "build/src/main.d.ts",

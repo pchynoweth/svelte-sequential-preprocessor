@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.4
+
+* Upgraded packages
+
 ## 0.0.3
 
 * Corrected more mistakes in README
