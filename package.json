@@ -15,22 +15,22 @@
     "svelte"
   ],
   "devDependencies": {
-    "@types/estree": "0.0.44",
-    "@types/jest": "^26.0.0",
-    "@types/node": "^14.0.13",
-    "@typescript-eslint/eslint-plugin": "~3.3.0",
-    "@typescript-eslint/parser": "~3.3.0",
-    "eslint": "~7.3.0",
+    "@types/estree": "0.0.45",
+    "@types/jest": "^26.0.5",
+    "@types/node": "^14.0.23",
+    "@typescript-eslint/eslint-plugin": "~3.6.1",
+    "@typescript-eslint/parser": "~3.6.1",
+    "eslint": "~7.5.0",
     "eslint-config-prettier": "~6.11.0",
-    "eslint-plugin-jest": "~23.13.2",
+    "eslint-plugin-jest": "~23.18.0",
     "estree-walker": "^2.0.1",
-    "jest": "~26.0.1",
+    "jest": "~26.1.0",
     "magic-string": "^0.25.7",
     "prettier": "~2.0.5",
     "rimraf": "~3.0.2",
-    "ts-jest": "~26.1.0",
+    "ts-jest": "~26.1.3",
     "tsutils": "~3.17.1",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "clean": "rimraf coverage dist tmp",
@@ -44,7 +44,7 @@
   "author": "Peter Chynoweth <24738364+pchynoweth@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^3.23.2",
+    "svelte": "^3.24.0",
     "tslib": "~2.0.0"
   },
   "repository": {
