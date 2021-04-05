@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.5
+
+* Upgraded packages
+
 ## 0.0.4
 
 * Upgraded packages
