@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.7
+
+* Fixed linting
+
 ## 0.0.6
 
 * Upgraded packages
