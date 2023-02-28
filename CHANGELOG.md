@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.0.0
+
+* Promoted to production release.
+* Upgraded all packages
+
 ## 0.0.7
 
 * Fixed linting
