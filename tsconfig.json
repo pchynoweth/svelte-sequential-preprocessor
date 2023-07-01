@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/svelte/tsconfig.json",
   "compilerOptions": {
     "target": "es2018",
     "module": "commonjs",
@@ -18,7 +19,8 @@
     "noImplicitThis": false,
     "strictNullChecks": false,
     "types": ["jest", "node"],
-    "lib": ["es2018"]
+    "lib": ["es2018"],
+    "verbatimModuleSyntax": true
   },
   "include": [
     "src/**/*",
