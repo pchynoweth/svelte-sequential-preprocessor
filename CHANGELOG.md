@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.0
+
+* Upgraded to Svelte 4
+
 ## 1.0.0
 
 * Promoted to production release.
