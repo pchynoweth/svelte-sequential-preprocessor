@@ -45,7 +45,7 @@
   "license": "MIT",
   "dependencies": {
     "svelte": "^3.59.1",
-    "tslib": "~2.5.2"
+    "tslib": "~2.6.0"
   },
   "repository": {
     "type": "git",
