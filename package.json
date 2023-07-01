@@ -44,7 +44,7 @@
   "author": "Peter Chynoweth <24738364+pchynoweth@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^3.59.1",
+    "svelte": "^4.0.1",
     "tslib": "~2.6.0"
   },
   "repository": {
