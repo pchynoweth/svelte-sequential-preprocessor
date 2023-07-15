@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update npm packages
-        uses: technote-space/create-pr-action@v2
+        uses: technote-space/create-pr-action@v2.1.4
         with:
           EXECUTE_COMMANDS: |
             rm package-lock.json
