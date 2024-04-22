@@ -13,10 +13,11 @@ jobs:
         uses: technote-space/create-pr-action@v2.1.4
         with:
           EXECUTE_COMMANDS: |
-            rm package-lock.json
+            rm -f package-lock.json
             npx npm-check-updates -u --packageFile package.json
             npm install
           COMMIT_MESSAGE: 'chore: update npm dependencies'
           COMMIT_NAME: 'GitHub Actions'
           PR_BRANCH_NAME: 'chore-npm-update-${PR_ID}'
           PR_TITLE: 'chore: update npm dependencies'
+          AUTO_MERGE_THRESHOLD_DAYS: 1
