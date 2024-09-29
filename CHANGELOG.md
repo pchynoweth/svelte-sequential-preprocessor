@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.0.2
+
+* Fixed #186: Now passing map, attributes and toString through
+
 ## 2.0.0
 
 * Upgraded to Svelte 4
