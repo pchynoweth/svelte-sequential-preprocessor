@@ -1,4 +1,4 @@
-/* eslint @typescript-eslint/no-var-requires: "off", @typescript-eslint/no-empty-function: "off" */
+/* eslint @typescript-eslint/no-var-requires: "off", @typescript-eslint/no-empty-function: "off", @typescript-eslint/no-require-imports: "off" */
 const seqPreprocess = require('../src/main');
 import { preprocess } from 'svelte/compiler';
 
