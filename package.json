@@ -19,9 +19,9 @@
     "@types/estree": "1.0.6",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.9.0",
-    "@typescript-eslint/eslint-plugin": "~8.13.0",
-    "@typescript-eslint/parser": "~8.13.0",
-    "eslint": "~9.14.0",
+    "@typescript-eslint/eslint-plugin": "~8.14.0",
+    "@typescript-eslint/parser": "~8.14.0",
+    "eslint": "~9.15.0",
     "eslint-config-prettier": "~9.1.0",
     "eslint-plugin-jest": "~28.9.0",
     "estree-walker": "^3.0.3",
@@ -45,7 +45,7 @@
   "author": "Peter Chynoweth <24738364+pchynoweth@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^5.1.13",
+    "svelte": "^5.2.1",
     "tslib": "~2.8.1"
   },
   "repository": {
