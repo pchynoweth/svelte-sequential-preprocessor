@@ -16,7 +16,7 @@
   ],
   "devDependencies": {
     "@tsconfig/svelte": "^5.0.4",
-    "@types/estree": "1.0.6",
+    "@types/estree": "1.0.7",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.9",
     "@typescript-eslint/eslint-plugin": "~8.26.0",
