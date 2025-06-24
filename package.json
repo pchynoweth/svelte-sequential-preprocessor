@@ -27,7 +27,7 @@
     "estree-walker": "^3.0.3",
     "jest": "~30.0.2",
     "magic-string": "^0.30.17",
-    "prettier": "~3.5.3",
+    "prettier": "~3.6.0",
     "rimraf": "~6.0.1",
     "ts-jest": "~29.4.0",
     "tsutils": "~3.21.0",
