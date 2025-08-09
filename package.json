@@ -18,10 +18,10 @@
     "@tsconfig/svelte": "^5.0.4",
     "@types/estree": "1.0.8",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.1.0",
-    "@typescript-eslint/eslint-plugin": "~8.38.0",
-    "@typescript-eslint/parser": "~8.38.0",
-    "eslint": "~9.32.0",
+    "@types/node": "^24.2.1",
+    "@typescript-eslint/eslint-plugin": "~8.39.0",
+    "@typescript-eslint/parser": "~8.39.0",
+    "eslint": "~9.33.0",
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-jest": "~29.0.1",
     "estree-walker": "^3.0.3",
@@ -29,9 +29,9 @@
     "magic-string": "^0.30.17",
     "prettier": "~3.6.2",
     "rimraf": "~6.0.1",
-    "ts-jest": "~29.4.0",
+    "ts-jest": "~29.4.1",
     "tsutils": "~3.21.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2"
   },
   "scripts": {
     "clean": "rimraf coverage dist tmp",
@@ -45,7 +45,7 @@
   "author": "Peter Chynoweth <24738364+pchynoweth@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^5.36.17",
+    "svelte": "^5.38.0",
     "tslib": "~2.8.1"
   },
   "repository": {
