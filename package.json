@@ -18,10 +18,10 @@
     "@tsconfig/svelte": "^5.0.5",
     "@types/estree": "1.0.8",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.7.1",
-    "@typescript-eslint/eslint-plugin": "~8.46.0",
-    "@typescript-eslint/parser": "~8.46.0",
-    "eslint": "~9.37.0",
+    "@types/node": "^24.8.1",
+    "@typescript-eslint/eslint-plugin": "~8.46.1",
+    "@typescript-eslint/parser": "~8.46.1",
+    "eslint": "~9.38.0",
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-jest": "~29.0.1",
     "estree-walker": "^3.0.3",
@@ -45,7 +45,7 @@
   "author": "Peter Chynoweth <24738364+pchynoweth@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "svelte": "^5.39.11",
+    "svelte": "^5.40.2",
     "tslib": "~2.8.1"
   },
   "repository": {
