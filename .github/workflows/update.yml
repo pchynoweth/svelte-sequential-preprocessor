@@ -4,6 +4,9 @@ on:
   - cron: "0 0 * * 6"
 
 name: Update packages
+permissions:
+  contents: write
+  pull-requests: write
 jobs:
   release:
     name: Update npm packages
