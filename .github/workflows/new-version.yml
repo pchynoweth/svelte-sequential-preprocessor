@@ -9,6 +9,8 @@ jobs:
   tag-version:
     name: tag-version
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
       tagcreated: ${{ steps.apply-tag.outputs.tagcreated }}
     steps:
@@ -31,6 +33,8 @@ jobs:
     name: npm-publish
     needs: tag-version
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     if: ${{ needs.tag-version.outputs.tagcreated == 'yes' }}
     steps:
     - name: Checkout repository
