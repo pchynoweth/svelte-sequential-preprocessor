@@ -62,30 +62,23 @@ export default {
   ...
 ```
 
-### With Sapper
+### With SvelteKit
 
 ```js
+// svelte.config.js
+import adapter from '@sveltejs/adapter-auto';
 import seqPreprocessor from 'svelte-sequential-preprocessor';
-import autoPreprocess from 'svelte-preprocess'
-import image from 'svelte-image'
+import autoPreprocess from 'svelte-preprocess';
+import image from 'svelte-image';
 
-const preprocess = seqPreprocessor([ autoPreprocess(), image() ]);
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+  preprocess: seqPreprocessor([autoPreprocess(), image()]),
 
-export default {
-  client: {
-    plugins: [
-      svelte({
-        preprocess,
-        // ...
-      }),
-  },
-  server: {
-    plugins: [
-      svelte({
-        preprocess,
-        // ...
-      }),
-    ],
-  },
+  kit: {
+    adapter: adapter()
+  }
 };
+
+export default config;
 ```
