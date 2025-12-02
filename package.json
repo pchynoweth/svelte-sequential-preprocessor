@@ -1,6 +1,6 @@
 {
   "name": "svelte-sequential-preprocessor",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Sequential preprocessor for Svelte JS.",
   "main": "build/src/main.js",
   "types": "build/src/main.d.ts",
@@ -8,7 +8,7 @@
     "build/src"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "keywords": [
     "preprocess",
