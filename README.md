@@ -1,6 +1,5 @@
 ![Node.js CI](https://github.com/pchynoweth/svelte-sequential-preprocessor/workflows/Node.js%20CI/badge.svg)
 ![new-version](https://github.com/pchynoweth/svelte-sequential-preprocessor/workflows/new-version/badge.svg)
-[![Build Status](https://travis-ci.org/pchynoweth/svelte-sequential-preprocessor.svg?branch=master)](https://travis-ci.org/pchynoweth/svelte-sequential-preprocessor)
 [![version](https://img.shields.io/npm/v/svelte-sequential-preprocessor.svg?style=flat-square)](http://npm.im/svelte-sequential-preprocessor)
 
 # svelte-sequential-preprocessor
