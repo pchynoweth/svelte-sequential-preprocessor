@@ -19,7 +19,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@master
       with:
-        node-version: 18.0.0
+        node-version: lts/*
     - name: Get the current version
       uses: pchynoweth/action-get-npm-version@master
       id: package-version
@@ -42,7 +42,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@master
       with:
-        node-version: 18.0.0
+        node-version: lts/*
     - name: Install npm deps
       run: npm install
     - name: Publish to npm
