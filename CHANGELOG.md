@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.0.3
+
+* Updated README to replace Sapper section with SvelteKit
+* Removed Travis CI badge from README
+* Upgraded packages
+
 ## 2.0.2
 
 * Fixed #186: Now passing map, attributes and toString through
