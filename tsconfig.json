@@ -20,7 +20,8 @@
     "strictNullChecks": false,
     "types": ["jest", "node"],
     "lib": ["es2018"],
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "src/**/*",
