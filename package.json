@@ -25,6 +25,7 @@
     "eslint-config-prettier": "~10.1.8",
     "eslint-plugin-jest": "~29.15.0",
     "estree-walker": "^3.0.3",
+    "globals": "^15.0.0",
     "jest": "~30.3.0",
     "magic-string": "^0.30.21",
     "prettier": "~3.8.1",
